@@ -1,17 +1,20 @@
 {
   "name": "star-wars-ui",
+  "version": "1.0.0",
+  "description": "Star Wars movie listing UI using React, Redux, Vite, TailwindCSS",
+  "author": "Tanwir Singh",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "axios": "^1.11.0",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.535.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -32,5 +35,6 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11",
     "vite": "^7.0.4"
-  }
+  },
+  "homepage": "https://tanwir1703.github.io/digi-cert_star-wars/star-wars-ui"
 }
